@@ -64,7 +64,7 @@ export default {
 				},
 				military: {
 					green: '#f5f5f5',
-					brown: '#8B4513', 
+					brown: '#f9f9f9', 
 					dark: '#1C1C1C',
 					camo: '#4A5D3A',
 				}
