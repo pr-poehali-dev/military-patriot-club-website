@@ -59,15 +59,15 @@ const Index = () => {
       </nav>
 
       {/* Героический раздел */}
-      <section id="home" className="relative min-h-[80vh] flex items-center justify-center bg-gradient-to-b from-military-dark to-military-green/20">
+      <section id="home" className="relative min-h-[80vh] flex items-start justify-center pt-20">
         <div 
-          className="absolute inset-0 opacity-20 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMEgyMFYyMEgwVjBaIiBmaWxsPSIjMkQ0QTJCIi8+CjxwYXRoIGQ9Ik0wIDEwSDE0VjIwSDBWMTBaIiBmaWxsPSIjOEI0NTEzIi8+CjxwYXRoIGQ9Ik02IDZIMjBWMTRINlY2WiIgZmlsbD0iIzRBNUQzQSIvPgo8L3N2Zz4K')",
-            backgroundRepeat: "repeat"
+            backgroundImage: "url('/img/ed848c94-3969-4876-a919-301f547288b8.jpg')"
           }}
         />
-        <div className="relative text-center px-4 max-w-4xl mx-auto">
+        <div className="absolute inset-0 bg-black/60" />
+        <div className="relative text-center px-4 max-w-4xl mx-auto bg-black/50 backdrop-blur-sm rounded-lg p-8">
           <Badge className="mb-6 bg-military-brown text-white font-oswald">СЛУЖИМ ОТЕЧЕСТВУ</Badge>
           <h1 className="text-4xl md:text-6xl font-oswald font-bold text-white mb-6 leading-tight">
             ВОЕННО-ПАТРИОТИЧЕСКИЙ<br />
