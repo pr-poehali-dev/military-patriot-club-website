@@ -61,6 +61,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				military: {
+					green: '#2D4A2B',
+					brown: '#8B4513', 
+					dark: '#1C1C1C',
+					camo: '#4A5D3A',
 				}
 			},
 			borderRadius: {
@@ -89,6 +95,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				oswald: ['Oswald', 'sans-serif'],
+				roboto: ['Roboto', 'sans-serif'],
 			}
 		}
 	},
