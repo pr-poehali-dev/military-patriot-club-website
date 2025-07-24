@@ -63,7 +63,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				military: {
-					green: '#2D4A2B',
+					green: '#f5f5f5',
 					brown: '#8B4513', 
 					dark: '#1C1C1C',
 					camo: '#4A5D3A',
